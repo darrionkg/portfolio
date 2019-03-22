@@ -38,6 +38,9 @@ body {
 }
 
 /* Styling for About Me, Backgorund, and Hobbies*/
+.font-increase {
+  font-weight: bolder;
+}
 .container {
   margin-bottom: 20px;
   justify-content: center;
@@ -49,11 +52,29 @@ body {
 
 .about-me, .background-info, .hobbies {
   padding: 10px;
-  margin: 5px;
+  margin: 5px 5px 15px 5px;
   border: 1px solid white;
   min-width: 180px;
 }
 
+.about-me h3, .background-info h3, .hobbies h3 {
+  background-color: black;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 30%;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3%;
+  background-color: white;
+  color: #007bff;
+  text-align: center;
+}
 
 /* Section for projects.html */
 .gh-link {
@@ -89,7 +110,7 @@ body {
 
 .proj1, .proj2, .proj3 {
   width: 33%;
-  margin: 0;
+  margin: 5px 0;
 }
 
 
@@ -165,6 +186,7 @@ body {
     align-items: center;
     min-width: 650px;
     height: auto;
+    margin-bottom: 40px;
   }
 
 }
