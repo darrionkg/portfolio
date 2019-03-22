@@ -60,9 +60,25 @@ body {
 }
 
 /* Section for projects.html */
+
+.project-container {
+  width: 100%;
+  margin: 0 auto;
+}
 .project-container img{
   max-width: 300px;
-  height: auto;
+  height: 280px;
+}
+
+.proj1, .proj2, .proj3 {
+  width: 33%;
+  margin: 0;
+}
+
+.proj1, .proj3 {
+  display: flex;
+  align-items: center;
+  height: 700px;
 }
 
 /* Media Queries */
