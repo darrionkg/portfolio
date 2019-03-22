@@ -3,6 +3,7 @@ body {
 }
 
 .intro {
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +33,10 @@ body {
   justify-content: center;
 }
 
+.container {
+  margin-bottom: 20px;
+  justify-content: center;
+}
 .about-me {
   padding: 10px;
   margin: 5px;
@@ -42,6 +47,13 @@ body {
   padding: 10px;
   margin: 5px;
   border: 1px solid white;
+}
+
+.hobbies {
+  width: 25%;
+  border: 1px solid white;
+  text-align: center;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 480px) {
