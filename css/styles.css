@@ -1,4 +1,9 @@
+h1, h2, h3 {
+  font-family: 'Abril Fatface', cursive;
+}
+
 body {
+  font-family: 'EB Garamond', serif;
   background-color: #393e47;
   color: #877b5e;
 }
