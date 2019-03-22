@@ -8,6 +8,7 @@ body {
   align-items: center;
   width: 100%;
   height: 75%;
+  border-bottom: 1px solid white;
 }
 
 .intro h1 {
@@ -25,6 +26,22 @@ body {
   width: inherit;
   max-width: 1000px;
   height: inherit;
+}
+
+.row1 {
+  justify-content: center;
+}
+
+.about-me {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
+}
+
+.background-info {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
 }
 
 @media screen and (max-width: 480px) {
