@@ -2,6 +2,7 @@ body {
   background-color: #393e47;
 }
 
+/* Section for index.html's IMG/Title */
 .intro {
   background-color: white;
   display: flex;
@@ -29,14 +30,16 @@ body {
   height: inherit;
 }
 
-.row1 {
-  justify-content: center;
-}
-
+/* Styling for About Me, Backgorund, and Hobbies*/
 .container {
   margin-bottom: 20px;
   justify-content: center;
 }
+
+.row1 {
+  justify-content: center;
+}
+
 .about-me {
   padding: 10px;
   margin: 5px;
@@ -56,6 +59,13 @@ body {
   margin: 0 auto;
 }
 
+/* Section for projects.html */
+.project-container img{
+  max-width: 300px;
+  height: auto;
+}
+
+/* Media Queries */
 @media screen and (max-width: 480px) {
 
   .intro h1, .intro h2 {
