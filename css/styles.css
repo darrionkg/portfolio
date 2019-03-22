@@ -1,30 +1,40 @@
+body {
+  background-color: #393e47;
+}
+
 .intro {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 75%;
-  max-width: 1000px;
 }
 
 .intro h1 {
   color: white;
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .intro h2 {
   color: white;
   position: absolute;
   transform: translate(0, 150%);
-  /* top: 40%;
-  left: 50%; */
-  /* transform: translate(-40%, -50%); */
 }
 
 .resize-img {
   width: inherit;
+  max-width: 1000px;
   height: inherit;
+}
+
+@media screen and (max-width: 480px) {
+  .intro h1, .intro h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 700px){
+  .intro h1, .intro h2 {
+    font-size: 1.4em;
+  }
 }
